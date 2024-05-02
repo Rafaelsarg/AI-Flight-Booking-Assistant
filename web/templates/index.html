@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+        
+        <script src="{{ url_for('static',filename='scripts/main.js') }}" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="window-wrapper">
+            <div class="window-title">
+                <div class="main-title">
+                    <span>AI Chatbot</span>
+                </div>
+            </div>
+            <div class="window-area">
+                <div class="chat-area">
+                    <div class="title"><span>Conversation title</span></div>
+                    <div class="chat-list">
+                        <ul class="chatbox">
+                            <li class="chat incoming">
+                                <p> Hello!
+
+                                    I am an AI-trained chatbot here to assist you with booking your upcoming flight. To ensure a smooth booking process, kindly answer the questions I will provide.
+                                    
+                                    Let's begin with the details of your flight's origin and destination. Could you please provide me with these details?
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="input-area">
+                        <form class="input-wrapper">
+                            <input type="text" value="" class="text-inp">
+                        </form>
+                        <input type="button" value="Send" class="send-btn">
+                        <input type="button" value="Restart" class="reset-btn">
+                    </div>
+                </div>
+                <div class="right-tab">
+                    <div class="title"><b>Booking Options</b></div>
+                    <div class="bookings">
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="overlay" class="overlay"></div>
+        <div class="popup-itinerary">
+            <div class="upper-info-box">
+            </div>
+            <div class="mid-flight-info-box">
+                <div class="inbound-flight-info-box">
+                    
+                </div>
+                <div class="outbound-flight-info-box">
+                    
+                </div>
+            </div>
+            <div class="closing-box">
+                <input type="button" value="Close" class="close-btn">
+            </div>
+        </div>
+    </body>
+</html>

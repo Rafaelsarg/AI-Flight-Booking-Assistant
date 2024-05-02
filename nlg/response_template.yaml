@@ -1,0 +1,82 @@
+greet():
+    - Hello!
+    - Hi there!
+    - It's wonderful to see you.
+    - Delighted to see you.
+    - It's a pleasure to meet you.
+    - Nice to make your acquaintance.
+    - Welcome aboard!
+
+
+goodbye():
+    - Thank you for using our services for new search please press Restart. Goodbye!
+    - Thank you for using our services for new search please press Restart. Farewell.
+    - Thank you for using our services for new search please press Restart. See you soon!
+    - Thank you for using our services for new search please press Restart. Have a fantastic day ahead!
+    - Thank you for using our services for new search please press Restart. Enjoy the rest of your day!
+    - Thank you for using our services for new search please press Restart. Until we meet again.
+    - Thank you for using our services for new search please press Restart. Catch you later!
+    - Thank you for using our services for new search please press Restart. Bye for now!
+    - Thank you for using our services for new search please press Restart. Take care!
+    - Thank you for using our services for new search please press Restart. Safe travels!
+
+request(origin):
+    - Could you kindly provide information about the flight's origin?
+    - What is the departure city for the flight?
+    - May I inquire about the flight's starting point?
+
+request2(origin):
+    - Could you please clarify the departure city once more?
+    - Could you rephrase your question about the origin city? The system had some difficulty understanding.
+    - I apologize for any confusion, could you provide more details about the flight's starting point?
+
+request(destination):
+    - Could you kindly provide information about the flight's destination?
+    - What is the arrival city for the flight?
+    - May I inquire about the flight's final destination?
+
+
+request2(destination):
+    - Could you please clarify the destination city once more?
+    - Could you rephrase your question about the destination city? The system had some difficulty understanding.
+    - I apologize for any confusion, could you provide more details about the flight's final destination?
+
+request(date):
+    - Could you please provide information about the flight date?
+    - What is the date of the flight?
+
+
+request2(date):
+    - Could you please clarify the flight date again?
+    - Could you rephrase your question about the date of the flight? The system had some difficulty understanding.
+    - I apologize for any confusion, could you provide more details about the date of the flight?
+
+request(return):
+    - You may also provide information about the return date if needed.
+    - If you'd like to add the return date, please let me know.
+
+request(ticket_class):
+    - You may also provide information about ticket class. If no information provided the default is Economy ticket
+
+request(travelersNumber):
+    - We greatly appreciate the information you've shared so far, which is essential for enhancing your travel experience. Please specify the number of travelers, including adults, children (2-12 years), and infants (0-2 years), in the provided fields. Remember, infants share seats with adults for a comfortable journey. Your cooperation is vital for tailoring the best flight options.
+    - Thank you for providing your details as we work to optimize your travel plans. To assist you better, please indicate the number of travelers, including adults, children (2-12 years), and infants (0-2 years), in the designated field. Infants share seats with adults for a seamless journey.
+    - Your input regarding the number of travelers is crucial for us to find the most suitable flight options for your journey.
+
+confirm():
+    - I have gathered all the necessary information. You can view the search results on the screen.
+    - I have all the information I need. You can see the search results on the screen.
+    - Your request has been processed, and you can now review the search results.
+    - You're all set! The search results are available for your review.
+
+inform(flight={None}):
+    - Unfortunately, there are no flights available with the specified parameters. Please try again with different criteria.
+    - I'm sorry, but we couldn't find any flights that match your criteria. Please consider adjusting your search.
+
+inform(origin={None}):
+    - Regrettably, the provided origin is not currently available in our database. You are welcome to initiate a search for other cities.
+    - I'm sorry, but the origin you provided is not in our database. Feel free to search for alternative cities.
+
+inform(destination={None}):
+    - Regrettably, the provided destination is not currently available in our database. You are welcome to initiate a search for other cities.
+    - I'm sorry, but the destination you provided is not in our database. Feel free to search for alternative cities.
